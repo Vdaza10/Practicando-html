@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velki Estebana Daza M</title>
+    <link rel="stylesheet" href="formulario.css">
+    <style>
+        form {
+            margin-left: 840px;
+            margin-right: 750px;
+            float: flex;
+            border-radius: 8px;
+            background:linear-gradient( rgba(64, 224, 208, 0.562) 40px, pink 60%);
+            border: solid 1px rgb(144, 151, 209);
+            box-shadow: rgba(159, 158, 219, 0.2) 9px 9px 9px 9px;
+            ;
+        }
+
+        h1 {
+            margin-left: 40px;
+
+        }
+
+        .nombre {
+            margin-top: 10px;
+        }
+
+        .correo {
+            margin-top: 10px;
+
+        }
+
+        .password {
+            margin-top: 10px;
+        }
+        .boton{
+            background: rgba(123, 124, 209, 0.801);
+        }
+    </style>
+</head>
+
+<body>
+
+    <form class="id" action="">
+        <h1> Formulario html</h1>
+        <ol>
+            <ul class="nombre">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name" />
+            </ul>
+            <ul class="correo">
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_email" />
+            </ul>
+            <ul class="password">
+                <label for="">Contraseña:</label>
+                <input type="password">
+            </ul><br>
+            <ul class="opcion">
+                <label for="">El elige el color: <br>
+                    <input type="radio" value=" azul">
+                    azul <br>
+                    <input type="radio" value="rojo">
+                    rojo <br>
+                    <input type="radio" value="amarillo">
+                    amarillo
+                </label>
+            </ul>
+            <ul class="opcion1">
+                <p>
+                    Selecciona tus intereses:<br>
+                    <input type="checkbox" name="peliculas"> Películas<br>
+                    <input type="checkbox" name="deportes"> Deportes<br>
+                    <input type="checkbox" name="videojuegos"> Videojuegos
+                </p>
+
+            </ul>
+            <ul>
+                <label for="msg">Mensaje:</label> <br>
+                <textarea id="msg" name="user_message"></textarea> <br>
+                <input class="boton" type="submit" value="Enviar">
+                
+            </ul>
+        </ol>
+
+    </form>
+
+</body>
+
+</html>
